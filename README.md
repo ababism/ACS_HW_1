@@ -53,3 +53,25 @@ size - размер вашего массив, например, 5.
 * [Список изменений](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_4/README.md)
 
 **✅ [Тестирование программы (через консоль)](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)**
+
+## Задание на 5 баллов:
+**✅ Решение задачи на C *с передачей данных в функции и локальными переменными (было изначально)*** 
+* [main.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/main.c)
+* [task.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/task.c)
+* [print.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/print.c)
+
+**✅ Модифицированный код на Assembly с комментариями о передаче параметров в фукнции (были и в прошлом пункте)**
+* [main.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_comments_for_4/main.s)
+* [task.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_comments_for_4/task.s)
+* [print.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_comments_for_4/print.s)
+
+**P.S.** Комментирование сделано согласно правилам:
+ * rdi - регистр для первого аргумента функции
+ * rsi/esi - для второго аргумента функции
+ * rdx - для третьего аргументф функции
+ * eax/rax - для запоминания/аккумулирования данных
+ 
+
+### Summary:
+
+Весь код был прокомментирвон, включая передачу параметров в функции (mov регистр для соотвествующего аргумента, значение аргумента).
