@@ -1,4 +1,4 @@
-# Архитектуры вычислительных систем. ИДЗ № 1. Вариант 18.
+# Архитектуры вычислительных систем. ИДЗ № 1. Вариант 18 <br/> Киселев Иван БПИ217.
 
 ## Структура репозитория:
 * [C code](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/ACS_C_Files) - содержит реализацию задачи на C
@@ -21,7 +21,7 @@
 size - размер вашего массив, например, 5. 
 
 **Attention:** 1 <= size <= 100, а также файлы должны называться input.txt (входной файл) и output.txt (файл для вывода)
-* input.txt - файл,  содержащий элементы массива
+* input.txt - файл,  содержащий size элементов массива
 * output.txt - файл, будет содержать элементы нового массива
 
 2. Если же вы хотите протестировать генерацию массива или ручной ввод, вам необходимо вызвать .exe файл **без указания размера**:
@@ -32,3 +32,24 @@ size - размер вашего массив, например, 5.
 * Введите 1 для ввода генерации массива
 * Введите не 1 для ручного ввода
 
+# Отсчет
+
+## Задание на 4 балла:
+**✅ Решение задачи на C**  (3 единицы комплиляции + прием аргументов командной строки для ввода с файла + генерация)
+* [main.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/main.c)
+* [task.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/task.c)
+* [print.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/print.c)
+
+**✅ Не модифицированный код на Assembly с комментариями**
+* [main.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_comments_for_4/main.s)
+* [task.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_comments_for_4/task.s)
+* [print.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_comments_for_4/print.s)
+
+**✅ Модифицированный код на Assembly (убраны макросы)**
+* [main.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_4/main.s)
+* [task.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_4/task.s)
+* [print.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_4/print.s)
+
+* [Список изменений](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_4/README.md)
+
+**✅ [Тестирование программы (через консоль)](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)**
