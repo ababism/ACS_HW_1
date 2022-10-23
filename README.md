@@ -99,3 +99,16 @@ i = r13d (task.s)
 ### Итог:
 
 Выполен рефакторинг программы на ассемблере за счет максимального использования регистров процессора (в основном замены переменной итератора из стека на регист r12d/r13d). В ходе тестирования получены идентичные значения.
+
+## Задание на 7 баллов:
+
+**✅ Код на C, содержащий 2 единицы компиляции** 
+* [ACS_C_Files](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/ACS_C_Files)
+
+**✅ Модифицированный код на ассемблере, содержащий 3 следующие единицы компиляции**
+* [main.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/main.s)
+* [task.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/task.s)
+* [print.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/print.s)
+* [то же но с комментариями](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/hw_comments_for_4)
+
+**✅ [Тесты с заданием файлов с использованием агументов командной строки](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)**
