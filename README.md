@@ -102,7 +102,7 @@ i = r13d (task.s)
 
 ## Задание на 7 баллов:
 
-**✅ Код на C, содержащий 2 единицы компиляции** 
+**✅ Код на C, содержащий 3 единицы компиляции** 
 * [ACS_C_Files](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/ACS_C_Files)
 
 **✅ Модифицированный код на ассемблере, содержащий 3 следующие единицы компиляции**
@@ -112,3 +112,24 @@ i = r13d (task.s)
 * [то же но с комментариями](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/hw_comments_for_4)
 
 **✅ [Тесты с заданием файлов с использованием агументов командной строки](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)**
+
+## Задание на 8 баллов:
+
+**✅ Код на C, содержащий генератор случайных значений** 
+* [main.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/main.c)
+* [task.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/task.c)
+* [print.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/print.c)
+
+**✅ Модифицированный код на ассемблере, содержащий генератор случайных значений и выбор типа ввода**
+* [main.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/main.s)
+* [task.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/task.s)
+* [print.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/print.s)
+* [то же но с комментариями](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/hw_comments_for_4)
+
+**✅ Тестирование автоматически сгенерированных данных с замером времени**
+* [Тесты](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)
+
+
+### Итог:
+
+Был реализован таймер замеряющий только задание из варианта. Повторяя решение для массиива из 100 элементов 100млн раз мы смогли протестировать среднее время выполнения (на случайных данных) и убедились, что уменьшили время работы на более 1 секунды.
