@@ -11,7 +11,7 @@
 
 * [Ассемблер после модификации на 6](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/hw_moded_after_6) - содержит модифицированный код на Assembly для задания на 6 балла (использование регистров)
 
-* [Ассемблер после модификации на 6](https://github.com/ababism/ACS_HW_1/tree/main/ACS_HW_1/hw_comments_for_6) - содержит комментарии и код на Assembly для задания на 6 балла (описание замены регистров)
+* [Комментарии модификации на 6](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/README.md) - содержит комментарии для кода на Assembly для задания на 6 балла (описание замены регистров)
 
 ## Как устроена программа:
 1. Если вы хотите протестировать ввод из файлов, вам следует ввести команду:
@@ -54,6 +54,10 @@ size - размер вашего массив, например, 5.
 
 **✅ [Тестирование программы (через консоль)](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)**
 
+### Итог:
+
+Все корректно работает, код был откомментрован максильно подробно (сразу на 9 баллов)
+
 ## Задание на 5 баллов:
 **✅ Решение задачи на C *с передачей данных в функции и локальными переменными (было изначально)*** 
 * [main.c](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/ACS_C_Files/main.c)
@@ -72,6 +76,26 @@ size - размер вашего массив, например, 5.
  * eax/rax - для запоминания/аккумулирования данных
  
 
-### Summary:
+### Итог:
 
 Весь код был прокомментирвон, включая передачу параметров в функции (mov регистр для соотвествующего аргумента, значение аргумента).
+
+## Задание на 6 баллов:
+
+**✅ Модифицированный код на Assembly**
+* [main.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/main.s)
+* [task.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/task.s)
+* [print.s](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/print.s)
+
+
+### [Внесенные изменения](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/hw_moded_after_6/README.md):
+``` assembly
+i = а r12d (main.s print.s)
+i = r13d (task.s)
+```
+
+**✅ [Тестирование программы через консоль и генерацию](https://github.com/ababism/ACS_HW_1/blob/main/ACS_HW_1/Tests.md)**
+
+### Итог:
+
+Выполен рефакторинг программы на ассемблере за счет максимального использования регистров процессора (в основном замены переменной итератора из стека на регист r12d/r13d). В ходе тестирования получены идентичные значения.
