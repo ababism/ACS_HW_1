@@ -34,5 +34,6 @@
 
 ### Тесты:
 1. Обработка массива длинны 5 <br/>
- <img width="570" alt="image" src="https://user-images.githubusercontent.com/111705295/197415727-04dd5a88-506b-471b-ab2f-a7b6d77c973f.png">
  <img width="318" alt="image" src="https://user-images.githubusercontent.com/111705295/197415699-54d8fc46-a42b-434c-9a82-29b13f39a147.png">
+ <img width="570" alt="image" src="https://user-images.githubusercontent.com/111705295/197415727-04dd5a88-506b-471b-ab2f-a7b6d77c973f.png">
+ 
