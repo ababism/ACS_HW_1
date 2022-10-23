@@ -30,3 +30,9 @@
  > <img width="445" alt="image" src="https://user-images.githubusercontent.com/111705295/197412942-3785d56b-7719-4c66-b6b2-1aa7f9bcf9ef.png">
 
 ----
+# 7 баллов
+
+### Тесты:
+1. Обработка массива длинны 5 <br/>
+ > <img width="333" alt="image" src="https://user-images.githubusercontent.com/111705295/197412834-18a130e9-2584-42bb-8dee-be17b35d2a1f.png">
+ > <img width="318" alt="image" src="https://user-images.githubusercontent.com/111705295/197415699-54d8fc46-a42b-434c-9a82-29b13f39a147.png">
